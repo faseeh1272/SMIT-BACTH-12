@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        .header-section {
+    background: blue;
+    padding: 10px 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo span {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input {background: #ffff6fcc;padding: 5px;}
+
+.login-button {
+    padding: 5px;
+    background: #5757ff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.check label {
+    margin: 0;
+}
+.form-row a {
+    color: wheat;
+    text-decoration: none;
+}
+
+
+.left{
+    float: left;
+    width: 65%;
+    min-height: fit-content;
+
+}
+
+.right{
+    float: right;
+    width: 35%;
+min-height: fit-content;
+}
+
+.firstpara{
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.para2{
+    text-align: start;
+    margin-left: 40px;
+}
+input{
+    padding: 10px;
+    
+}
+/* 
+.fl{
+float: right;
+margin-left: 0% 50px;
+} */
+form span{
+    display:flex;
+    gap: 10px;
+}
+.birth-hint{
+    font-size: 15px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signup-button{
+    width: 100px;
+    background-color: green;
+}
+hr{
+    border: 1px solid black;
+}
+.right span{
+    font-size: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <section class="header-section">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span class="fb">
+                        facebook
+                    </span>
+                </div>
+                <div class="login-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="username">Email or Phone </label>
+                                <input type="text" name="username" id="username">
+                                <div class="form-row check">
+                                    <input type="checkbox" name="keep" id="keep" checked>
+                                    <label for="keep">Keeps me logged in</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password </label>
+                                <input type="text" name="password" id="password">
+                                <div class="form-row check">
+                                    <a href="javascript:void(0)">Forget your password ?</a>
+                                </div>
+                            </div>
+                            <button class="login-button" type="button">
+                                Login
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="container">
+        <div class="left">
+        <p class="firstpara">
+            <b>connect with friends and the<br>
+        world around youon facebook. </b>
+        </p>
+        <p class="para2">
+        <b>see phopto and updates</b> from friends in new feed<br>
+        <br>
+        <b>share what's new</b> in your life on your timeline<br>
+        <br>
+        <b>find more</b> of what your looking for with graph search
+        </p>
+        </div>
+        <div class="right">
+            <span>sign up</span>
+            <br>
+         <span>it's free and always will be</span>
+            <div class="form-two">
+                <form>
+                
+                    
+                         <span>  <input  type="name" value="Firstname" >
+                        
+                        <input class="fl" type="name" value="Lastname" id="name">
+                    </span>
+                        <br>
+                            <input type="email" value="Re-inter your email or Phone number" id="" size="50">
+                            <br>
+                            <br>
+                            <input type="password" value="new password" id="" size="50">
+                        
+                
+                </form>
+                <div>
+                    <h2>birthday</h2>
+                <div class="select">
+                    <select name="" class="day">
+                        <option value="day">day</option>
+                    </select>
+                    <select name="birthday" class="month">
+                        <option value="month">month</option>
+                    </select>
+                    <select name="year" class="year">
+                        <option value="year">year</option>
+                       
+                               
+                    </select>
+                     <p class="birth-hint"><a href="">do i need to provide <br>
+                        my birthday</a></p>
+                        
+                <input type="radio" name="male" id=""> male
+                <input type="radio" name="female" id=""> female
+                <p class="term">by clicking sign up, you <br>agree to our terms and <br>that <br>
+                    you rad our data use <br> policy, including our <br> cookies use
+                </p>
+                <input type="button" class="signup-button" value="signup">
+                <hr>
+                <span> create a page for a celebrity, band or bisness. </span>
+                </div>
+                   
+                        
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
