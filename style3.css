@@ -10,7 +10,7 @@
     background-image: url(./child\ img.webp);
     background-repeat: no-repeat;
     box-sizing: border-box;
-    background-position: top;
+    background-position:top;
     background-size: cover;
     height: 100vh;
 }
