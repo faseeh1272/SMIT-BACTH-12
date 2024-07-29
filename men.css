@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container{
+    max-width: 100%;
+}
+.flex-box{
+    width: 100%;
+    display: flex;
+}
+.box{
+    width: 23%;
+    border: 2px solid black;
+}

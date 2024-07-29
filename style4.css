@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+}
+
+.nav{
+    width: 100%;
+    /* height: 30px; */
+    background-color: black;
+    color: white;
+    display: inline-block;
+    /* height: 30px; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* position: fixed; */
+    /* justify-content: space-between; */
+  
+}
+
+ .nav ul li{
+    display: inline-block;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    margin: 20px; 
+}
+.container{
+    
+    width: 100%;
+    /* display: block; */
+    text-align: center;
+}
+.box{
+    width: ;
+    display: flex;
+}
+
+.left_side{
+    float: left;
+    position: fixed;
+/* position: fixed; */
+    width: 200px;
+    /* border: 2px solid black; */
+    height: 400px;
+    background-color: aqua;
+}
+.left_side ul li{
+    font-size: 40px;
+}
+.right_side{
+    float: right;
+    margin-bottom: 15px;
+    /* position: fixed; */
+    width: 300px;
+    border: 2px solid green;
+    height: 600px;
+
+
+}
+@media screen and (min-width: 401px) {
+    .left_side{
+        display: none;
+    }
+    .nav{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 800px) {
+    .nav{
+        display: none;
+    }
+    .left_side{
+        display: block;
+    }
+}
+.center_content{
+    width: 80%;
+    /* background-color: red; */
+    background-image: url(./faseeh.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+}
+.banner{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
