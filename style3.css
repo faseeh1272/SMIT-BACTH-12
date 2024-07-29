@@ -18,15 +18,12 @@
     width: 100%;
     position: fixed;
 }
-
-.nav{
-   
-}
 .flex{
     display: flex;
     margin-left: 30px;
     gap: 20px;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 .fa-bars-staggered{
     font-size: 20px;
@@ -36,10 +33,12 @@ ul{
     display: flex;
     gap: 30px;
     margin-left: 30px;
+    flex-wrap: wrap;
     
 }
 li{
     display: flex;
+    flex-wrap: wrap;
 }
 a{
 
@@ -58,6 +57,7 @@ a{
 }
 .main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;
      margin-right: 30px;
@@ -67,12 +67,14 @@ a{
     justify-content: end;
     font-size: 30px;
     margin-right: 10px;
+    flex-wrap: wrap;
 }
 
 .fa-bag-shoping{
    display: flex;
    justify-content: end;
   color: white;
+  flex-wrap: wrap;
   
 }
 .bg-video a{
@@ -91,6 +93,7 @@ a{
     justify-content: center;
     margin-top: 35px;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .horizental{
     margin-left: 30%;
@@ -101,12 +104,14 @@ a{
     display: flex;
     justify-content: space-between;
    padding: 15px;
+   flex-wrap: wrap;
 }
 footer .fter-container{
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .box-p{
@@ -114,6 +119,7 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 padding: 30px;
+flex-wrap: wrap;
 
 }
 .box{
